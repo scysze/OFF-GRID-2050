@@ -1,1 +1,28 @@
+while game_running:
+    print("\n------------------------------------------------------------")
+    print("CURRENT COMMUNITY STATUS")
+    print("------------------------------------------------------------")
+    print("Day:", day)
+    print("Water:", water)
+    print("Food: ", food)
+    print("Energy: ", energy)
+    print("Knowledge: ", knowledge)
+    print("Trust: ", trust)
+
+print("\n============================================================")
+    print(days[day - 1])
+print("============================================================")
+    print(events[day - 1], "\n")
+
+    if day == 1:
+        print("The electricity suddenly dissapears.")
+        energy = energy - 1
+        print("Energy - 1")
+    elif day == 2:
+        print("People are scared because they cannot contact their families.")
+        if trust >= 5:
+            print("Your strong community prevents panic.")
+        else:
+            print(
+
 
