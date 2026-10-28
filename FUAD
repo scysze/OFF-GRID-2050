@@ -23,6 +23,6 @@ print("============================================================")
         if trust >= 5:
             print("Your strong community prevents panic.")
         else:
-            print(
+            print(test
 
 
